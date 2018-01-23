@@ -82,16 +82,8 @@ public class Customers {
 		return true;
 	  }
 	  // Overriding Clone
-	  public PersonData cloneObject() { 
+	  public PersonData clone() { 
 		  return new PersonData(this);
 	  }
-	  
-	  public class CustomerData extends PersonData {
-		  	
-			int customerNumber;
-			boolean mailingList;
-	  }
-	
-		  
-	}
+
 }
