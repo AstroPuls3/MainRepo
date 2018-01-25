@@ -23,6 +23,12 @@ public class Customers {
 		this.address = other.address;
 		this.phone = other.phone;
 	}
+	public PersonData() { 
+		lastName = "";
+		firstName = "";
+		address = "";
+		phone = "";
+	}
 	//Accessor for Last Name
 	public String getlastName() {
 		return lastName;
@@ -86,4 +92,5 @@ public class Customers {
 		  return new PersonData(this);
 	  }
 
+	}
 }
